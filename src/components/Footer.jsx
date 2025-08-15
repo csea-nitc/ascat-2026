@@ -12,7 +12,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="fixed left-0 bottom-0 w-full h-[65vh] md:h-[40vh] z-0">
+    <footer className="fixed left-0 bottom-0 w-full h-[68vh] md:h-[42vh] z-0">
       <video
         autoPlay
         loop
@@ -24,11 +24,17 @@ export default function Footer() {
 
       <div className="fixed inset-0 bg-black bg-opacity-30 z-0" />
 
-      <div className="absolute bottom-0 w-full flex flex-col text-white text-left px-20 py-10">
+      <div className="absolute bottom-3 md:bottom-0 w-full flex flex-col text-white text-left px-5 py-2 md:px-20 md:py-10">
         <div className="mb-[3vh]">
-          <p className="text-6xl font-semibold">ASCAT 2026</p>
-          <p className="text-2xl font-semibold">March 06 - March 08 2026</p>
-          <nav className="flex flex-wrap justify-left gap-6 mt-3">
+          <p className="text-[3rem] md:text-6xl font-semibold translate-y-4 md:translate-y-0">
+            ASCAT 2026
+          </p>
+          <p className="text-[2.3rem] md:text-4xl font-semibold">NIT Calicut</p>
+          <p className="text-[1.5rem] md:text-3xl font-semibold -translate-y-2 md:translate-y-0">
+            Mar 06 - Mar 08 2026
+          </p>
+
+          <nav className="flex flex-wrap flex-col md:flex-row justify-left gap-2 md:gap-6 mt-3 text-md md:text-xl font-semibold">
             {navLinks.map((link) => (
               <Link key={link.to} to={link.to} className="hover:underline">
                 {link.label}
@@ -47,7 +53,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            Made by arunnats
+            Credits{" "}
           </a>
         </div>
       </div>

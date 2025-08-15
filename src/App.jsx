@@ -11,12 +11,12 @@ export default function App() {
   return (
     <Router>
       <div className="relative min-h-screen overflow-x-hidden">
-        <div className="relative z-[20] flex bg-[#f6f7f7] flex-1 mb-[64vh] md:mb-[38.5vh] rounded-b-2xl overflow-hidden">
+        <div className="relative z-[20] flex bg-[#f6f7f7] flex-1 mb-[67vh] md:mb-[40vh] rounded-b-2xl overflow-hidden">
           <Sidebar />
           <main className="flex-1 min-h-screen">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/research" element={<Research />} />
+              <Route path="/committee" element={<Research />} />
               <Route path="/team" element={<Team />} />
             </Routes>
           </main>
