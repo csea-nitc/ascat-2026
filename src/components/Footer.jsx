@@ -14,6 +14,7 @@ export default function Footer() {
   return (
     <footer className="fixed left-0 bottom-0 w-full h-[68vh] md:h-[42vh] z-0">
       <video
+        id="footer-video"
         autoPlay
         loop
         muted
