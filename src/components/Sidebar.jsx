@@ -12,6 +12,7 @@ export function Sidebar() {
     { to: "/registration", label: "Registration" },
     { to: "/speakers", label: "Speakers" },
     { to: "/programme", label: "Programme" },
+    { to: "/contact", label: "Contact" },
   ];
 
   const quickLinks = [

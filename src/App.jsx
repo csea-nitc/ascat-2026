@@ -9,6 +9,7 @@ import Team from "./pages/Team";
 import Registration from "./pages/Registration";
 import Programme from "./pages/Programme";
 import Speakers from "./pages/Speakers";
+import Contact from "./pages/Contact";
 
 trefoil.register();
 
@@ -61,6 +62,7 @@ export default function App() {
               <Route path="/registration" element={<Registration />} />
               <Route path="/programme" element={<Programme />} />
               <Route path="/speakers" element={<Speakers />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
         </div>

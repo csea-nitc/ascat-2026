@@ -9,6 +9,7 @@ export default function Footer() {
     { to: "/registration", label: "Registration" },
     { to: "/speakers", label: "Speakers" },
     { to: "/programme", label: "Programme" },
+    { to: "/contact", label: "Contact" },
   ];
 
   return (
