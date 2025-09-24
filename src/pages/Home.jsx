@@ -53,95 +53,95 @@ export default function Home() {
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Algebraic and Theoretical aspects of CA</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Algorithmic and Complexity issues in Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Formal Language Processing</li>
-                <li tabIndex={4} className="px-4 py-1">Cellular Automata and Logic</li>
-                <li tabIndex={4} className="px-4 py-1">Randomness</li>
-                <li tabIndex={4} className="px-4 py-1">Reversibility and Cycle structure</li>
-                <li tabIndex={4} className="px-4 py-1">Algebraic properties of Cellular Automata and Discrete Systems</li>
-                <li tabIndex={4} className="px-4 py-1">Characterization tools for Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Conservation Laws and Cellular Automata</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Algorithmic and Complexity issues in Cellular Automata</li>
+                <li className="px-4 py-1">Formal Language Processing</li>
+                <li className="px-4 py-1">Cellular Automata and Logic</li>
+                <li className="px-4 py-1">Randomness</li>
+                <li className="px-4 py-1">Reversibility and Cycle structure</li>
+                <li className="px-4 py-1">Algebraic properties of Cellular Automata and Discrete Systems</li>
+                <li className="px-4 py-1">Characterization tools for Cellular Automata</li>
+                <li className="px-4 py-1">Conservation Laws and Cellular Automata</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Cellular Automata Models and Computation</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Traffic models and Crowd dynamics</li>
-                <li tabIndex={4} className="px-4 py-1">Models for Distributed and Parallel Systems</li>
-                <li tabIndex={4} className="px-4 py-1">Lattice Gas and Lattice Boltzmann model</li>
-                <li tabIndex={4} className="px-4 py-1">Environmental, Social and Economical Modeling and Simulation</li>
-                <li tabIndex={4} className="px-4 py-1">Natural Computing</li>
-                <li tabIndex={4} className="px-4 py-1">Reversible and Quantum Computing</li>
-                <li tabIndex={4} className="px-4 py-1">Cellular Automata Architecture for Computation</li>
-                <li tabIndex={4} className="px-4 py-1">Cellular Automata for Computing-in-Memory Architecture</li>
-                <li tabIndex={4} className="px-4 py-1">Cellular Automata with Memory</li>
-                <li tabIndex={4} className="px-4 py-1">Integration of CA and Agent-based modeling</li>
-                <li tabIndex={4} className="px-4 py-1">Sandpile Cellular Automata</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Traffic models and Crowd dynamics</li>
+                <li className="px-4 py-1">Models for Distributed and Parallel Systems</li>
+                <li className="px-4 py-1">Lattice Gas and Lattice Boltzmann model</li>
+                <li className="px-4 py-1">Environmental, Social and Economical Modeling and Simulation</li>
+                <li className="px-4 py-1">Natural Computing</li>
+                <li className="px-4 py-1">Reversible and Quantum Computing</li>
+                <li className="px-4 py-1">Cellular Automata Architecture for Computation</li>
+                <li className="px-4 py-1">Cellular Automata for Computing-in-Memory Architecture</li>
+                <li className="px-4 py-1">Cellular Automata with Memory</li>
+                <li className="px-4 py-1">Integration of CA and Agent-based modeling</li>
+                <li className="px-4 py-1">Sandpile Cellular Automata</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Non-uniformity in Cellular Automata</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Non-uniform or Hybrid Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Asynchronous Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Stochastic Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Network Automata</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Non-uniform or Hybrid Cellular Automata</li>
+                <li className="px-4 py-1">Asynchronous Cellular Automata</li>
+                <li className="px-4 py-1">Stochastic Cellular Automata</li>
+                <li className="px-4 py-1">Network Automata</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Cellular Automata, Hardware Design and Security</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Circuit Design and Computer Architecture</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum-dot Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Memristor Design</li>
-                <li tabIndex={4} className="px-4 py-1">Security and Encryption</li>
-                <li tabIndex={4} className="px-4 py-1">Cryptography</li>
-                <li tabIndex={4} className="px-4 py-1">Secured Hardware Design</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Circuit Design and Computer Architecture</li>
+                <li className="px-4 py-1">Quantum-dot Cellular Automata</li>
+                <li className="px-4 py-1">Memristor Design</li>
+                <li className="px-4 py-1">Security and Encryption</li>
+                <li className="px-4 py-1">Cryptography</li>
+                <li className="px-4 py-1">Secured Hardware Design</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Quantum-dot Cellular Automata</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Logic Gates and Circuit Design</li>
-                <li tabIndex={4} className="px-4 py-1">Quiescent Quantum Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum Gate Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Universal Quantum Cellular Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum computing</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum lattice gases</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum Reversible Automata</li>
-                <li tabIndex={4} className="px-4 py-1">Quantum Nano-Automata</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Logic Gates and Circuit Design</li>
+                <li className="px-4 py-1">Quiescent Quantum Cellular Automata</li>
+                <li className="px-4 py-1">Quantum Gate Cellular Automata</li>
+                <li className="px-4 py-1">Universal Quantum Cellular Automata</li>
+                <li className="px-4 py-1">Quantum computing</li>
+                <li className="px-4 py-1">Quantum lattice gases</li>
+                <li className="px-4 py-1">Quantum Reversible Automata</li>
+                <li className="px-4 py-1">Quantum Nano-Automata</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Cellular Automata, Machine Learning and Artificial Intelligence</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Artificial Life</li>
-                <li tabIndex={4} className="px-4 py-1">Pattern Recognition</li>
-                <li tabIndex={4} className="px-4 py-1">Machine Learning</li>
-                <li tabIndex={4} className="px-4 py-1">Bioinformatics</li>
-                <li tabIndex={4} className="px-4 py-1">Image and Video Processing</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Artificial Life</li>
+                <li className="px-4 py-1">Pattern Recognition</li>
+                <li className="px-4 py-1">Machine Learning</li>
+                <li className="px-4 py-1">Bioinformatics</li>
+                <li className="px-4 py-1">Image and Video Processing</li>
               </ul>
             </div>
           </details>
           <details className="border border-gray-300 rounded-md">
             <summary className="px-4 py-2 cursor-pointer hover:bg-gray-100">Emerging Applications of Cellular Automata</summary>
             <div className="px-8">  
-              <ul tabIndex={4} className="list-disc pl-8 py-2">
-                <li tabIndex={4} className="px-4 py-1">Ecological issues</li>
-                <li tabIndex={4} className="px-4 py-1">Urban development</li>
-                <li tabIndex={4} className="px-4 py-1">Graph Colouring</li>
-                <li tabIndex={4} className="px-4 py-1">Sensor network applications</li>
+              <ul className="list-disc pl-8 py-2">
+                <li className="px-4 py-1">Ecological issues</li>
+                <li className="px-4 py-1">Urban development</li>
+                <li className="px-4 py-1">Graph Colouring</li>
+                <li className="px-4 py-1">Sensor network applications</li>
               </ul>
             </div>
           </details>

@@ -7,11 +7,12 @@ export function Sidebar() {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/committee", label: "Committee" },
-    { to: "/team", label: "Call for Papers" },
-    { to: "/preview", label: "Call for PhD Forum" },
+    // { to: "/team", label: "Call for Papers" },
+    // { to: "/preview", label: "Call for PhD Forum" },
     { to: "/registration", label: "Registration" },
     { to: "/speakers", label: "Speakers" },
     { to: "/programme", label: "Programme" },
+    { to: "/submission", label: "Submission" },
     { to: "/contact", label: "Contact" },
   ];
 
