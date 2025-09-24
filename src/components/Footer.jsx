@@ -12,7 +12,12 @@ export default function Footer() {
     { to: "/submission", label: "Submission" },
     { to: "/contact", label: "Contact" },
   ];
-
+  const ScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <footer className="fixed left-0 bottom-0 w-full h-[68vh] md:h-[42vh] z-0">
       <video
@@ -39,7 +44,12 @@ export default function Footer() {
 
           <nav className="flex flex-wrap flex-col md:flex-row justify-left gap-2 md:gap-6 mt-3 text-md md:text-xl font-semibold">
             {navLinks.map((link) => (
-              <Link key={link.to} to={link.to} className="hover:underline">
+              <Link
+                key={link.to}
+                to={link.to}
+                className="hover:underline"
+                onClick={ScrollToTop}
+              >
                 {link.label}
               </Link>
             ))}
@@ -51,7 +61,7 @@ export default function Footer() {
         <div className="flex justify-between items-center py-2 text-xs">
           <span>© {new Date().getFullYear()} NIT Calicut</span>
           <a
-            href="https://arunnats.com"
+            href="https://assoc.cse.nitc.ac.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
