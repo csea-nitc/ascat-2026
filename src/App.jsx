@@ -6,6 +6,11 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Research from "./pages/Research";
 import Team from "./pages/Team";
+import Registration from "./pages/Registration";
+import Programme from "./pages/Programme";
+import Speakers from "./pages/Speakers";
+import Submission from "./pages/Submission";
+import Contact from "./pages/Contact";
 
 trefoil.register();
 
@@ -55,6 +60,11 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/committee" element={<Research />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/registration" element={<Registration />} />
+              <Route path="/programme" element={<Programme />} />
+              <Route path="/speakers" element={<Speakers />} />
+              <Route path="/submission" element={<Submission />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
         </div>
