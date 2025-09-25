@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const navLinks = [
     { to: "/", label: "Home" },
-    { to: "/research", label: "Committee" },
+    { to: "/committee", label: "Committee" },
     // { to: "/team", label: "Call for Papers" },
     // { to: "/preview", label: "Call for PhD Forum" },
     { to: "/registration", label: "Registration" },
